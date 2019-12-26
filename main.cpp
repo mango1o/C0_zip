@@ -143,7 +143,7 @@ int main(int argc, char** argv) {
 	    Analyse(*input,*output,"-s");
 	}
     else if (program["-c"] == true) {
-        //Analyse(*input,*output,"-c");
+        Analyse(*input,*output,"-c");
     }
 	else {
 		fmt::print(stderr, "You must choose tokenization or syntactic analysis.");

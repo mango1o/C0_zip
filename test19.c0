@@ -1,0 +1,15 @@
+int fun(int i)
+{
+if(i==1)
+return 1;
+else
+return i*fun(i-1);
+
+}
+int main()
+{
+int a;
+scan(a);
+print(fun(a));
+return 1;
+}
