@@ -409,7 +409,7 @@ namespace miniplc0 {
                     while(1){
                         current_char = nextChar();
                         ch = current_char.value();
-                        if(ch == '\r' || ch == '\t')
+                        if(ch == '\r' || ch == '\n')
                             break;
                     }
                 }
